@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon backend/server.js",
-    "build": "npm install && npm install --prefix frontend && npm run create-env && npm run build --prefix frontend && conda install -c conda-forge ffmpeg libsndfile && pip install spleeter"
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend && conda install -c conda-forge ffmpeg libsndfile && pip install spleeter"
   },
   "author": "",
   "license": "ISC",
